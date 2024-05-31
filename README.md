@@ -44,5 +44,10 @@ Inside this file we need to add the following, please verify the path to make su
 
 ```ini
 [autostart]
-open_ha_dashboard = $HOME/RPI-HA-dashboard/open_ha_dashboard.sh
+open_ha_dashboard = $HOME/Projects/RPI-HA-dashboard/open_ha_dashboard.sh
 ```
+
+### Add execution rights to `open_ha_dashboard.sh`
+To make sure that the script can run, we should check the permissions of the `open_ha_dashboard.sh` file.
+
+We can make sure its executable by running `chmod +x open_ha_dashboard.sh`.

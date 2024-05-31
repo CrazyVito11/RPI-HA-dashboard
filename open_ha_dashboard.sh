@@ -1,7 +1,12 @@
 #!/bin/bash
 
 set -e
-source .env
+
+# Get the path to the script, this way it we should always point to the correct directory
+SCRIPT_DIR=$(dirname "$0")
+
+# Load our .env file
+source "$SCRIPT_DIR/.env"
 
 firefox --new-window "$HA_DASHBOARD_URL" & (
     sleep 10;
