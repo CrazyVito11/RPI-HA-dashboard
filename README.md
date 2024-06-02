@@ -1,7 +1,7 @@
 # RPI-HA-dashboard
 Script and setup instructions for getting a functional RPI Home Assistant Dashboard.
 
-Created and tested on Raspberry Pi OS 64-bit Bookworm.
+Created and tested on a Raspberry Pi 5 4GB running Raspberry Pi OS 64-bit Bookworm.
 
 
 ## Dependencies
