@@ -5,7 +5,7 @@ Created and tested on Raspberry Pi OS 64-bit Bookworm.
 
 
 ## Dependencies
-- Firefox
+- Chromium
 - Dotool *(Will be installed in the setup instructions)*
 - Wayfile (Can be enabled in raspi-config -> Advanced Options -> Wayland)
 
