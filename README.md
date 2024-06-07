@@ -7,7 +7,7 @@ Created and tested on a Raspberry Pi 5 4GB running Raspberry Pi OS 64-bit Bookwo
 ## Dependencies
 - Chromium
 - Dotool *(Will be installed in the setup instructions)*
-- Wayfile (Can be enabled in raspi-config -> Advanced Options -> Wayland)
+- Wayfire (Can be enabled in raspi-config -> Advanced Options -> Wayland)
 
 
 ## Setup instructions
