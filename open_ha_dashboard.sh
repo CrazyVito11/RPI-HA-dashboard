@@ -11,7 +11,7 @@ source "$SCRIPT_DIR/.env"
 # Wait for the specified startup delay
 sleep $BROWSER_STARTUP_DELAY;
 
-chromium-browser --new-window "$HA_DASHBOARD_URL" & (
+chromium-browser --new-window --hide-crash-restore-bubble "$HA_DASHBOARD_URL" & (
     sleep $KEY_INPUT_DELAY;
     echo key f11 | dotool;
     echo mouseto 1 1 | dotool
